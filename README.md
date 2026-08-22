@@ -8,7 +8,6 @@ The primary goal of this project is to demonstrate foundational data science tec
 
 - `cafe_sales_dirty.csv`: The raw, unprocessed transactional dataset containing missing values and string errors.
 - `cafe_sales_cleaned.csv`: The finalized dataset after applying advanced data cleaning and imputation pipelines.
-- `pdf_exact_eda.py`: The core Python script that performs the data cleaning and generates the visualizations.
 - `cafe_analysis.ipynb`: A Jupyter Notebook containing the same analytical steps for interactive exploration.
 
 ## 🧹 Data Cleaning & Preprocessing
@@ -41,10 +40,3 @@ The EDA pipeline generates a suite of Seaborn and Matplotlib visualizations desi
 - Pandas
 - Matplotlib
 - Seaborn
-
-### Running the Analysis
-You can execute the entire analysis pipeline by running the provided Python script:
-```bash
-python pdf_exact_eda.py
-```
-This will automatically load the cleaned data, compute the statistical aggregations, print out the top-performing categories, and display the visualization plots one by one.
